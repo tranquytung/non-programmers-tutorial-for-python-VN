@@ -5,17 +5,23 @@
 Ở chương một, chúng ta có một ví dụ về giá trị tuyệt đối của hai số như sau:
 
 ```sh
-1 #!/bin/python
-2
-3 a = 24
-4 b = -23
-5
-6 if a < 0:
-7     a = -a
-8 if b < 0:
-9     b = -b
-10 if a == b:
-11     print "Gia tri tuyet doi cua a va b bang nhau"
-12 else:
-13     print "Gia tri tuyet doi cua a va b khac nhau"
+#!/bin/python
+
+a = 23
+b = -23
+
+if a < 0:
+    a = -a
+if b < 0:
+    b = -b
+if a == b:
+    print "Gia tri tuyet doi cua a va b bang nhau"
+else:
+    print "Gia tri tuyet doi cua a va b khac nhau"
+
+```
+
+Kết quả
+```sh
+Gia tri tuyet doi cua a va b bang nhau
 ```
