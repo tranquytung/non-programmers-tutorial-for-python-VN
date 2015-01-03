@@ -95,7 +95,7 @@ print "Dien tich la: ", dien_tich(chieucao, chieurong)
 Kết quả:
 
 ```sh
-root@cong-kvm:~# python chuong18-bai3.py
+root@cong-kvm:~# python chuong8-bai3.py
 Xin chao cac ban !
 Xin chao cac ban !
 Xin chao Cong
@@ -131,10 +131,9 @@ print "a = ", a, "la bien duoc gan o ngoai han print_ham()"
 Kết quả:
 
 ```sh
-root@cong-kvm:~# python chuong8-bai3.py
+root@cong-kvm:~# python chuong8-bai4.py
 trong ham print_ham() a = 17
 a =  4 la bien duoc gan o ngoai han print_ham()
-root@cong-kvm:~# cat chuong8-bai3.py
 ```
 
 Biến được gán trong hàm sẽ không bị ghi đè bởi biến toàn cục. Chúng chỉ tồn tại bên trong hàm mà thôi. Như chương trình trên, khi gọi biến `a` trong hàm, giá trị `17` sẽ được gán cho biến `a`. Nhưng khi kết thúc hàm, biến `a` lại trở về giá trị `4` - giá trị gán ở ngoài hàm.
@@ -166,7 +165,7 @@ print "d_var =", d_var
 
 Kết quả:
 ```sh
-root@cong-kvm:~# python chuong8-bai4.py
+root@cong-kvm:~# python chuong8-bai5.py
 Trong ham a_func(), bien a_var = 15
 Trong ham a_func(), bien b_var =  115
 Trong ham a_func(), bien d_var =  30
