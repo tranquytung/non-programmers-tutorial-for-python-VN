@@ -108,6 +108,7 @@ Trong hàm có một kiểu biến đặc biệt, gọi là biến cục bộ `l
 
 ```sh
 #!/bin/python
+# chuong08-baitap3.py
 
 a = 4
 
@@ -137,7 +138,7 @@ Biến được gán trong hàm sẽ không bị ghi đè bởi biến toàn c�
 
 ```sh
 #!/bin/python
-
+# chuong08-baitap4.py
 a_var = 10
 b_var = 15
 c_var = 25
