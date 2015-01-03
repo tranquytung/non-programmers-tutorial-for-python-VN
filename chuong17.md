@@ -28,4 +28,9 @@ Boi To Thanh Cong
 root@cong-kvm:~#
 ```
 
+Chương trình trên đã thực hiện việc tạo ra một file tên là `filecanghi.txt` vào chính thưc mục chứa mã nguồn của chương trình này. 
+
+`\n` là ký tự ngắt dòng trong Python.
+
+
 
