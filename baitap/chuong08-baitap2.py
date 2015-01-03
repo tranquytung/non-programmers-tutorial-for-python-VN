@@ -1,4 +1,5 @@
 #!/bin/python
+# chuong08-baitap2.py
 
 # script, a, b = argv
 

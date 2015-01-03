@@ -1,14 +1,23 @@
 #!/bin/python
 # chuong08-baitap3.py
-a = 4
 
-def print_ham():
-    a = 17
-    print "trong ham print_ham() a =", a
-#
-# Goi ham print_ham()
-print_ham()
+def xin_chao():
+    print "Xin chao cac ban !"
 
-# In ra bien a (bien toan cuc)
+def dien_tich(chieucao, chieurong):
+    return chieucao * chieurong
 
-print "a = ", a, "la bien duoc gan o ngoai han print_ham()"
+def chao_mung(ten):
+    print "Xin chao", ten
+
+# Goi hai lan ham xin_chao()
+xin_chao()
+xin_chao()
+
+# Goi ham chao_mung() voi doi so truyen vao la Cong
+chao_mung("Cong")
+
+# Khai bao gia tri chieucao va chieu rong, sau do goi ham dien tich
+chieucao = 5
+chieurong = 4
+print "Dien tich la: ", dien_tich(chieucao, chieurong)

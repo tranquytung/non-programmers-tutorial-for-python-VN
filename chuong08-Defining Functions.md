@@ -7,6 +7,7 @@ Cấu trúc chương trình trong Python khi sử dụng hàm
 
 ```sh
 #!/bin/python
+# chuong08-baitap1.py
 
 a = 23
 b = -23
@@ -31,6 +32,7 @@ Gia tri tuyet doi cua a va b bang nhau
 
 ```sh
 #!/bin/python
+# chuong08-baitap2.py
 
 # script, a, b = argv
 
@@ -66,6 +68,7 @@ Hãy quan sát ví dụ dưới để biết thêm về hàm trong Python.
 
 ```sh
 #!/bin/python
+# chuong08-baitap3.py
 
 def xin_chao():
     print "Xin chao cac ban !"
@@ -108,7 +111,7 @@ Trong hàm có một kiểu biến đặc biệt, gọi là biến cục bộ `l
 
 ```sh
 #!/bin/python
-# chuong08-baitap3.py
+# chuong08-baitap4.py
 
 a = 4
 
@@ -138,7 +141,7 @@ Biến được gán trong hàm sẽ không bị ghi đè bởi biến toàn c�
 
 ```sh
 #!/bin/python
-# chuong08-baitap4.py
+# chuong08-baitap5.py
 a_var = 10
 b_var = 15
 c_var = 25
