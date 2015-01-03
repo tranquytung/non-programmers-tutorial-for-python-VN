@@ -37,6 +37,14 @@ Tóm tắt về việc đọc ghi file trong Python như sau:
 * Có thể đọc hoặc ghi với đối tượng file trong Python (phụ thuộc vào việc mở file đó như thế nào).
 * Hãy đóng file khi thao tác xong với nó.
 
+Để làm việc với file, bước đầu tiên cần sử dụng hàm `open`. Cú pháp `file_object = open(filename, mode)`. Trong đó: 
+* file_object : Là biến truyền vào cho đối tượng file cần thao tác.
+* filename: Là tên của file.
+* mode: là chế độ để chỉ ra thao tác với file, là đọc `(r)` hay là ghi `(w)`.
+
+Tiếp theo là các đối tượng hàm thường được gọi. Có 02 hàm phổ biến là `write` và `read`. Hàm `write` sẽ thêm một chuỗi vào file. Hàm `read` dùng để đọc nội dung file và trả về kết quả là một chuỗi. Nếu không có đối số truyền vào thì nó sẽ về toàn bộ nội dung file đó.
+
+
 
 
 
