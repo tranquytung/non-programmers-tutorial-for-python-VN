@@ -241,6 +241,7 @@ Lua chon: q
 Chương trình tính diện tích
 ```sh 
 #!/bin/python
+# chuong08-bai7.py
 
 # Chuong trinh tinh dien tich do nguoi dung nhap vao
 
