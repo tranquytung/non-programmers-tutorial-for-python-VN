@@ -238,9 +238,64 @@ Do C la:  10.0
 Lua chon: q
 ```
 
+Chương trình tính diện tích
+```sh 
+#!/bin/python
 
+# Chuong trinh tinh dien tich do nguoi dung nhap vao
 
+print
+def xin_chao():
+    print "Xin chao"
 
+def dien_tich(chieucao, chieurong):
+    return chieucao * chieurong
+
+def hien_thi_xin_chao(name):
+    print "Xin chao, ", name
+
+name = raw_input("Nhap ten ban vao: ")
+
+# Goi ham xin_chao() va ham hien_thi_xin_chao()
+xin_chao()
+hien_thi_xin_chao(name)
+
+# Khai bao chieu cao va chieu rong
+print
+print "Nhap chieu cao va chieu rong de tinh dien tich"
+print
+w = input("Chao cao: ")
+while w <= 0:
+    print "Chieu cao phai lon hon 0"
+    w = input("Chieu cao: ")
+
+h = input("Chieu rong: ")
+while h <= 0:
+    print "Chieu rong phai lon hon 0"
+    h = input("Chieu rong: ")
+
+# Goi ham tinh dien tich
+print "Dien tich la: ", dien_tich(w,h)
+```
+
+Kết quả: 
+```sh
+root@cong-kvm:~# python chuong08-bai7.py
+
+Nhap ten ban vao: CONG
+Xin chao
+Xin chao,  CONG
+
+Nhap chieu cao va chieu rong de tinh dien tich
+
+Chao cao: 9
+Chieu rong: -9
+Chieu rong phai lon hon 0
+Chieu rong: -23
+Chieu rong phai lon hon 0
+Chieu rong: 2
+Dien tich la:  18
+```
 
 
 
