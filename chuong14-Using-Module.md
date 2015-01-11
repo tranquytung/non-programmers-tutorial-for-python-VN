@@ -58,6 +58,8 @@ D:\python-bt\non-programmer>
 
 ```
 
+Dòng đầu tiên trong chương trình là lệnh `import calendar` - được sử dụng để gọi module tên là `calendar` trong Python. Để biết thêm các module trong Python bạn cần tham khảo tài liệu của Python:  http://docs.python.org/library/ , với mỗi module đều có tài liệu mô tả và giải thích các chức năng của chúng.
+
 
 
 
